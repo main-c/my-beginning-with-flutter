@@ -92,7 +92,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.all(Radius.circular(2.0)),
       ),
-      backgroundColor: Colors.blue,
+
     );
     return Container(
       height: MediaQuery.of(context).size.height *0.1 * buttonHeight,
@@ -102,7 +102,11 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
         onPressed:() => buttonPressed(buttonText),
         child: Text(
           buttonText,
-
+          style: const TextStyle(
+            fontSize: 30.0,
+            fontWeight: FontWeight.normal,
+            color: Colors.white,
+          )
         ),
       ),
     );
