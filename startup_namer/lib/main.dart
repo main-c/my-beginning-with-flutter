@@ -12,9 +12,10 @@ class StartupNamer extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       title: 'Startup Name Generator',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.pink,
           foregroundColor: Colors.black,
         ),
       ),
