@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:visit_card/screens/detail.dart';
 import 'screens/home_page.dart';
 
-void main() => runApp(VisitCard());
+void main() => runApp(const VisitCard());
 
 class VisitCard extends StatelessWidget {
   const VisitCard({Key? key}) : super(key: key);

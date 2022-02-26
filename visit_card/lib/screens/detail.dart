@@ -65,6 +65,9 @@ class Detail extends StatelessWidget {
                         fontFamily: 'JosefinSans',
                         fontSize: 15.0),
                   ),
+                  SizedBox(
+                    width: 10,
+                  ),
                   Icon(
                     FontAwesomeIcons.twitter,
                     color: Colors.blue,
@@ -80,6 +83,9 @@ class Detail extends StatelessWidget {
                         fontFamily: 'JosefinSans',
                         fontSize: 15.0),
                   ),
+                  SizedBox(
+                    width: 10,
+                  ),
                   Icon(
                     FontAwesomeIcons.github,
                     color: Colors.black,
@@ -94,7 +100,6 @@ class Detail extends StatelessWidget {
                         color: Colors.white,
                         fontFamily: 'JosefinSans',
                         fontSize: 15.0),
-                    
                   ),
                 ],
               )

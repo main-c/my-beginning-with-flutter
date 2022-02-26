@@ -86,3 +86,32 @@ class Home extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+
+
+
+ Container(
+                        alignment: Alignment.center,
+                        height: 45.0,
+                        width: MediaQuery.of(context).size.width,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(10.0),
+                                bottomLeft: Radius.circular(10.0)),
+                            border: Border.all(
+                                color: const Color(0xFF2E1C4C),
+                                style: BorderStyle.solid)),
+                        child: TextField(
+                          decoration: InputDecoration(
+                              hintText: 'Your Username...',
+                              icon: Icon(
+                                Icons.person,
+                                color: Colors.white,
+                              )),
+                          keyboardType: TextInputType.text,
+                        ),
+                      )
