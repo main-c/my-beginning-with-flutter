@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/home_page.dart';
+import 'package:visit_card/screens/portofolio_screen.dart';
+import 'screens/home_page_screen.dart';
 
 void main() => runApp(const VisitCard());
 
@@ -11,7 +12,7 @@ class VisitCard extends StatelessWidget {
     return MaterialApp(
       title: 'My Business card',
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: PortofolioScreen(),
     );
   }
 }
