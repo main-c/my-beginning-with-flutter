@@ -1,16 +1,10 @@
 # login_page2
 
-A new Flutter project.
+Hi in this project I try to reproduce this model with flutter
 
-## Getting Started
+![](https://github.com/main-c/my-beginning-with-flutter/blob/main/login_page2/67d7e1b59869484997072e4340940f4d.webp)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+![](https://github.com/main-c/my-beginning-with-flutter/blob/main/login_page2/screenshots/Sans%20titre(1).jpg)
