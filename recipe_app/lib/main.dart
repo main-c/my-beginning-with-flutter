@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:recipes/screens/home_screens.dart';
+import 'package:recipe_app/screens/home_screens.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Mémé',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
       ),
       home: const MyHomePage(title: 'Mémé - Accueil'),
     );
